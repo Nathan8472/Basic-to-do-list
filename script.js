@@ -14,6 +14,7 @@ button.addEventListener("click", ()=> {
     let x = document.createElement("Button");
     document.querySelectorAll("List").forEach(eLI=>eLI.appendChild( newBt.cloneNode(true)) )
     x.textContent = "X";
+    x.style.marginLeft = "10px";
         li.appendChild(t);
     li.appendChild(x);
     list.appendChild(li);
